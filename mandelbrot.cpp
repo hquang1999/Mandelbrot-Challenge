@@ -12,7 +12,7 @@ int main()
 	{
 		for (int y = 0; y < 1000; y++)
 		{
-			float zoom = 0.0038; // shifting in coordinate plane
+			float zoom = 0.0035; // shifting in coordinate plane
 			
 			float a = 0;
 			a = ((x - 600) * zoom); //modified by Nigel
@@ -39,7 +39,7 @@ int main()
 				n++;
 			}
 				
-			double red = n * n * n % 256; 
+			double red = n * n * n % 256; // randomizing colors
 			double green = n % 256; 
 			double blue = n * 256; 
 		
